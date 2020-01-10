@@ -1,12 +1,12 @@
 # avisos_python3_14g
 
 ## Ejercicio de Clase #03
-* Fecha de entrega: 09/Enero/2020 23:29 hrs.
+* Fecha de entrega: 09/Enero/2020 23:59 hrs.
 
 ![poc](https://raw.githubusercontent.com/U25ha2UgR2luZ2Vy/avisos_python3_14g/master/tareas_y_ejercicios/ejercicio03.png)
 
 ## Ejercicio de Clase #04
-* Fecha de entrega: 09/Enero/2020 23:29 hrs.
+* Fecha de entrega: 09/Enero/2020 23:59 hrs.
 
 ![poc](https://raw.githubusercontent.com/U25ha2UgR2luZ2Vy/avisos_python3_14g/master/tareas_y_ejercicios/ejercicio04.png)
 
