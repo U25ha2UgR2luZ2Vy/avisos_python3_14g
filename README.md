@@ -1,5 +1,12 @@
 # avisos_python3_14g
 
+## Verificar que su repo este en el archivo repositorios.md en caso de que no se encuentre ahi su repo favor de enviar o reenviar la invitacion como colaborador al usuario U25ha2UgR2luZ2Vy
+
+## Estudiar los algoritmos de cifrado César
++ Criptografía Clásica
++ ++ Cifrado por Sustitución
++ +++ `Algoritmos de Cifrado César`
+
 ## Tarea #04 Parser XML
 * Fecha de entrega: 14/Enero/2020 13:00 hrs.
 
