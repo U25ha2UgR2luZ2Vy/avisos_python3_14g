@@ -1,5 +1,21 @@
 # avisos_python3_14g
 
+## Tarea #04 Parser XML
+* Fecha de entrega: 14/Enero/2020 13:00 hrs.
+
+![poc](https://raw.githubusercontent.com/U25ha2UgR2luZ2Vy/avisos_python3_14g/master/tareas_y_ejercicios/tarea04-p1.png)
+![poc](https://raw.githubusercontent.com/U25ha2UgR2luZ2Vy/avisos_python3_14g/master/tareas_y_ejercicios/tarea04-p2.png)
+
+## Ejercicio de Clase #09 Números Odiosos
+* Fecha de entrega: 13/Enero/2020 Solo en Clase 17:00 hrs.
+
+![poc](https://raw.githubusercontent.com/U25ha2UgR2luZ2Vy/avisos_python3_14g/master/tareas_y_ejercicios/ejercicio09.png)
+
+## Ejercicio de Clase #08 Listas y Diccionarios por Comprensión
+* Fecha de entrega: 13/Enero/2020 Solo en Clase 16:25 hrs.
+
+![poc](https://raw.githubusercontent.com/U25ha2UgR2luZ2Vy/avisos_python3_14g/master/tareas_y_ejercicios/ejercicio08.png)
+
 ## Ejercicio de Clase #07 Map,Filter,Reduce,Lambda
 * Fecha de entrega: 10/Enero/2020 Solo en Clase
 
