@@ -9,7 +9,7 @@
 ## Tarea #05 Cluster Bomb
 * Fecha de entrega: 16/Enero/2020 13:00 hrs.
 
-req.py
+[req.py](https://github.com/U25ha2UgR2luZ2Vy/avisos_python3_14g/blob/master/ejemplos/req.py)
 
 ![poc](https://raw.githubusercontent.com/U25ha2UgR2luZ2Vy/avisos_python3_14g/master/tareas_y_ejercicios/tarea06.png)
 ![poc](https://raw.githubusercontent.com/U25ha2UgR2luZ2Vy/avisos_python3_14g/master/tareas_y_ejercicios/tarea05.png)
