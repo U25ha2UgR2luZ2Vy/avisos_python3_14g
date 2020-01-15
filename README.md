@@ -1,11 +1,17 @@
 # avisos_python3_14g
 
+# Hoy 15 de Enero no Tenemos Clase
+
+`Estudien para su Examen de Mañana`
+
 ## Verificar que su repo este en el archivo repositorios.md en caso de que no se encuentre ahi su repo favor de enviar o reenviar la invitacion como colaborador al usuario U25ha2UgR2luZ2Vy
 
-## Estudiar los algoritmos de cifrado César
-+ Criptografía Clásica
-+ ++ Cifrado por Sustitución
-+ +++ `Algoritmos de Cifrado César`
+## Tarea #05 Cluster Bomb
+* Fecha de entrega: 16/Enero/2020 13:00 hrs.
+
+![poc](https://raw.githubusercontent.com/U25ha2UgR2luZ2Vy/avisos_python3_14g/master/tareas_y_ejercicios/tarea06.png)
+![poc](https://raw.githubusercontent.com/U25ha2UgR2luZ2Vy/avisos_python3_14g/master/tareas_y_ejercicios/tarea05.png)
+
 
 ## Tarea #04 Parser XML
 * Fecha de entrega: 14/Enero/2020 13:00 hrs.

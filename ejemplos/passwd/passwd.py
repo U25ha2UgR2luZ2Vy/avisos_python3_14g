@@ -1,7 +1,7 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-#UNAM-CERT
-#XML - parser
+# UNAM-CERT
+# XML - parser
 
 ##### Ejecución: python3 passwd.py passwd.xml passwd.txt
 
