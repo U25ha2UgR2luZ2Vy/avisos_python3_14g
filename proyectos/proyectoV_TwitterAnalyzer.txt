@@ -1,0 +1,43 @@
+Proyecto 4 (Twitter analyzer)
+Desarrollar un programa para el analisis de cuentas de la red social Twitter.
+El programa debe obtener diversa informacion de la cuenta como:
+  Nombre de usuario
+  Imagen de perfil
+  Fecha de creacion
+  Numero de tweets de la cuenta
+  Numero de tweets agregados a favoritos
+  Informacion de los tweets generados por la cuenta
+  
+Ademas, debe generar estadisticas como:
+  Hashtags utilizados
+  Tweets por dia de la semana
+  Tweets geolocalizados
+  Horario donde se genera la mayoria del contenido de la cuenta
+  Tweets con enlaces a otros sitios
+  
+Tambien debe ser capaz de obtener informacion sensible:
+  Tweets geolocalizados
+  Tweets con informacion del dispositivo donde se genero
+  Obtener las cuentas de usuario con las que interactua:
+    Tweets generados hacia otras cuentas
+    Tweets que mencionan a la cuenta analizada
+  Generar enlaces directos para cada tweet analizado  
+  Generar enlaces directos al contenido multimedia generado por el usuario.
+
+Resultados:
+  La informacion recopilada debe almacenarse en:
+    una base de datos (sqlite3)
+    reporte html
+  
+Al finalizar la ejecución del programa, se deberá escribir un reporte con los hallazgos encontrados. Dicho reporte debe de contener toda la información del análisis:
+- Fecha y hora de ejecución
+- Configuración de la ejecución (banderas utilizadas al ejecutar el script)
+
+Ejecucion:
+El programa debe hacer uso de excepciones para evitar la terminación abrupta de la ejecución del programa. Asimismo, deberá contar con, al menos, las siguientes opciones (banderas) para configurar la ejecución.
+-h: Ayuda sobre las opciones del programa.
+-c: Cuenta de usuario a analizar
+-v: Modo verboso, sirve para que el programa sea descriptivo durante su ejecución.
+-o: Sirve para indicar el nombre del archivo dónde se escribirá el reporte.
+  Si no se específica, decidir si se escribe en un archivo por defecto o en la salida estándar.
+- cualquier otra bandera que consideren

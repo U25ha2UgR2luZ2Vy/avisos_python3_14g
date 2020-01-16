@@ -1,0 +1,27 @@
+Proyecto 4 (Port Scanner)
+
+El objetivo de este programa es indicar qué puertos de TCP se encuentran abiertos en determinado host o grupo de hosts.
+Puesto que sólo analizará puertos TCP, será necesario el uso de Sockets de tipo STREAM, por lo que es necesario investigar su funcionamiento.
+
+El programa podrá recibir un puerto, una lista de puertos, rangos de puertos o una combinación de estas opciones.
+
+El programa podrá recibir, a través de su dirección IP o nombre de dominio, un host, una lista de hosts o un segmento completo a través de la dirección y máscara de la red.
+
+Se podrá configurar un retardo de n segundos entre paquetes para evitar que el escaneo levante alarmas. Se tendrá un valor por defecto para el caso en que este valor no se indique de forma explícita.
+
+
+Al finalizar la ejecución del programa, se deberá escribir un reporte con los hallazgos encontrados. Dicho reporte debe de contener toda la información del análisis:
+- Fecha y hora de ejecución
+- Configuración de la ejecución (banderas utilizadas al ejecutar el script)
+- Resultados
+
+
+El programa debe hacer uso de excepciones para evitar la terminación abrupta de la ejecución del programa. Asimismo, deberá contar con, al menos, las siguientes opciones (banderas) para configurar la ejecución.
+-h: Ayuda sobre las opciones del programa.
+-p: Puerto, lista de puertos, rango de puertos o una combinación de estas opciones (Ej. -p 80,443,8000-8005)
+-s: Host, lista de hosts o segmento (Ej. -s 192.168.10.0/23)
+-t: retardo entre paquetes. Asignar un valor por defecto para el caso en que no se indique
+-v: Modo verboso, sirve para que el programa sea descriptivo durante su ejecución. En caso de no indicarse, debe ser silencioso.
+-o: Sirve para indicar el nombre del archivo dónde se escribirá el reporte. Si no se específica, decidir si se escribe en un archivo por defecto o en la salida estándar.
+-c: sirve para indicar un archivo de configuración que contenga todas opciones de ejecución deseadas. Es decir, las opciones de ejecución pueden ser indicadas mediante estás banderas o mediante el archivo de configuración. Se deja a su consideración si las opciones por línea de comandos tienen prioridad sobre las del archivo o viceversa.
+- cualquier otra bandera que consideren

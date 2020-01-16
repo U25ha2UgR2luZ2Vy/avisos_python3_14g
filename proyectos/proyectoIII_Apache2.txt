@@ -1,0 +1,36 @@
+Proyecto 3 (Apache2 log analyzer)
+
+El objetivo de este programa es automatizar el análisis de las bitácoras generadas por un servidor web Apache. Servirá para tener una idea visual sobre las visitas recibidas en el servidor.
+
+Si el servidor web tiene configurada la rotación de bitácoras, los archivos rotados se encontrarán comprimidos (gzip). El programa deberá ser capaz de abrir bitácoras comprimidas y en texto plano.
+El programa puede recibir como argumento más de un archivo de bitácora, por lo que se debe idear una forma de discernir si se trata de un archivo comprimido o no. 
+
+Deberá mostrar números y gráficas dónde se muestren los:
+- Top n de Agentes de usuario que visitaron el servidor.
+- Top n de direcciones IP que visitaron el servidor
+- Top n de recursos visitados del servidor (existentes o no existentes)
+- Top n de códigos de respuesta.
+- Cantidad de peticiones a través del tiempo.
+
+Asimismo, el programa podrá ser usado para encontrar ataques de diccionario o de denegación de servicio a través de la relación peticiones/minutos.
+
+
+Al finalizar la ejecución del programa, se deberá escribir un reporte con los hallazgos encontrados. Dicho reporte debe de contener toda la información del análisis:
+- Fecha y hora de ejecución
+- Nombre de los archivos de log analizados.
+- Configuración de la ejecución (banderas utilizadas al ejecutar el script)
+- Resultados
+
+
+El programa debe hacer uso de excepciones para evitar la terminación abrupta de la ejecución del programa. Asimismo, deberá contar con, al menos, las siguientes opciones (banderas) para configurar la ejecución del programa.
+-h: Ayuda sobre las opciones del programa.
+-l: Archivo o archivos de bitácoras que analizará. Si se trata de más de un archivo, deben ir separados por comas.
+-v: Modo verboso, sirve para que el programa sea descriptivo durante su ejecución. En caso de no indicarse, debe ser silencioso.
+-u: Sirve para indicar la 'n' del top n de Agentes de usuario a graficar. Si no se indica este número, no se realiza este análisis.
+-i: Sirve para indicar la 'n' del top n de direcciones IP. Si no se indica este número, no se realiza este análisis.
+-r: Sirve para indicar la 'n' del top n de recursos visitados. Si no se indica este número, no se realiza este análisis.
+-s: Sirve para indicar la 'n' del top n de códigos de respuesta Si no se indica este número, no se realiza este análisis.
+-o: Sirve para indicar el nombre del archivo dónde se escribirá el reporte. Si no se específica, decidir si se escribe en un archivo por defecto o en la salida estándar.
+-a: Sirve para indicarle al programa que detecte ataques de diccionario o denegación de servicio. Recibe como argumento la cantidad de peticiones y los minutos a considerar para definir un ataque. (Por ejemplo: -a 15/3 significa que si hay 15 peticiones de la misma IP y al mismo  recurso en un lapso de 3 minutos, se considera un ataque). Si no se específica, no se realiza este análisis.
+-c: sirve para indicar un archivo de configuración que contenga todas opciones de ejecución deseadas. Es decir, las opciones de ejecución pueden ser indicadas mediante estás banderas o mediante el archivo de configuración. Se deja a su consideración si las opciones por línea de comandos tienen prioridad sobre las del archivo o viceversa.
+- cualquier otra bandera que consideren

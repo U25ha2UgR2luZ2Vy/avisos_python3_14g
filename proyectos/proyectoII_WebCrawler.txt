@@ -1,0 +1,35 @@
+Proyecto 2 (Web crawler)
+
+El objetivo de este programa es determinar la estructura de directorios y archivos de una página web. El producto principal de este script es un 'arbol' donde se puedan apreciar los archivos y directorios encontrados. Dicha estructura la deberá generar considerando los enlaces hacia el mismo sitio, sin importar si son absolutos o relativos, encontrados en la URL indicada. Asimismo, puede apoyarse del archivo robots.txt (en caso de existir este archivo) para realizar un análisis más acertado.
+
+Mientras realiza el crawling, el programa extraerá los correos electrónicos encontrados en el sitio.
+
+Asimismo, el programa servirá para mostrar información relevante del servidor y la aplicación:
+- Versión del servidor a través de los encabezados HTTP 'Server' y 'X-Powered-By'
+- Versión del CMS, en caso de utilizar uno, a través de la etiqueta HTML 'generator'
+- Métodos HTTP habilitados a través del método OPTIONS
+- Validez del certificado y la información del mismo (en caso de que el servicio esté usando HTTPS)
+
+Para evitar bloqueos por parte del servidor, el programa podra modificar el agente de usuario de las peticiones. De igual forma, se podrá indicar un tiempo de espera entre peticiones para evitar bloqueos y/o evitar tirar los sitios analizados.
+
+Al finalizar la ejecución del programa, se deberá escribir un reporte con los hallazgos encontrados. Dicho reporte debe de contener toda la información del análisis:
+- Fecha y hora de ejecución
+- Página web analizada
+- Configuración de la ejecución (banderas utilizadas al ejecutar el script)
+- Estructura del sitio (similar al comando 'tree' en Linux)
+- Hallazgos
+
+
+El programa debe hacer uso de excepciones para evitar la terminación abrupta de la ejecución del programa. Asimismo, deberá contar con, al menos, las siguientes opciones (banderas) para configurar la ejecución del programa.
+-h: Ayuda sobre las opciones del programa.
+-u: URL sobre la cuál se hará el análisis. Considerar protocolo (HTTP|HTTPS), host (IP|nombre de dominio), puerto y recurso.
+-v: Modo verboso, sirve para que el programa sea descriptivo durante su ejecución. En caso de no indicarse, debe ser silencioso.
+-r: Sirve para que, en caso de que exista un archivo robots.txt en el servidor, utilice su contenido para ayudar en el crawling. Si no se indica, ni si quiera debe de validar la existencia de dicho archivo.
+-m: sirve para indicarle al programa que busque los método HTTP habilitados.
+-s: sirve para indicarle al programa que dé información sobre TLS/SSL (certificado)
+-u: sirve para indicarle al programa qué agente de usuario (User-Agent) utilizar en cada petición
+-e: sirve para indicarle al programa que extraiga las versiones del servidor (encabezados HTTP) y de la aplicación (etiqueta HTML)
+-t: sirve para indicar una espera de n segundos entre peticiones para evitar bloqueos por parte del servidor.
+-p: sirve para indicarle al programa que extraiga todos los correos encontrados a lo largo del crawling.
+-c: sirve para indicar un archivo de configuración que contenga todas opciones de ejecución deseadas. Es decir, las opciones de ejecución pueden ser indicadas mediante estás banderas o mediante el archivo de configuración. Se deja a su consideración si las opciones por línea de comandos tienen prioridad sobre las del archivo o viceversa.
+- cualquier otra bandera que consideren
