@@ -1,8 +1,6 @@
 # avisos_python3_14g
 
-# Hoy 15 de Enero no Tenemos Clase
-
-`Estudien para su Examen de Mañana`
+`Se les notifica que el CFSY (Comité Formado por Servando y Yisus) ha tomado la decisión de cancelar el examen teórico del día de hoy 16 de Enero en atención a su salud mental, nos vemos a las 15:00 hrs para la entrega de sus proyetos`
 
 ## Verificar que su repo este en el archivo repositorios.md en caso de que no se encuentre ahi su repo favor de enviar o reenviar la invitacion como colaborador al usuario U25ha2UgR2luZ2Vy
 
