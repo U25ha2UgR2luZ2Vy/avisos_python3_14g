@@ -1,0 +1,74 @@
+Cuántos?: 2 P1
+
+        Cerón Rodríguez Lezly Dialid
+        Rodríguez Granados Rodrigo
+
+Cuántos?: 2 P2
+
+        Urbina Garrido Mauricio
+        Ramírez González Carlos Andrés
+
+Cuántos?: 2 P3
+
+        Villa González Jonathan Aldair
+        Portillo Castro Karina Ximena
+
+Cuántos?: 2 P4
+
+        Saavedra León Alberto
+        Ayala Sanjuan Luis Antonio
+
+Cuántos?: 2 P5
+
+        Hernández Vásquez Edgar
+        Ignacio Vásquez Oscar
+
+Cuántos?: 2 P1
+
+        Martínez Balderas José Antonio
+        Luna Castañeda Abraham Iván
+
+Cuántos?: 2 P2
+
+        Hernández López Monserrat
+        Castillo Montes Alan
+
+Cuántos?: 2 P3
+
+        Posadas Ortiz Alejandro Ashmed
+        Matuz Cristino Damian
+
+Cuántos?: 2 P4
+
+        López Matías Alexis Brayan
+        Xotla Sánchez Daniel
+
+Cuántos?: 2 P5
+
+        Baruch Guerra Rodolfo
+        Resendiz Cruz Luis Fernando
+
+Cuántos?: 2 P1
+
+        Naranjo Robledo Carlos
+        Pérez Martínez Josué Saúl
+
+Cuántos?: 2 P2
+
+        Colula Morales José Alberto
+        Martínez Ríos Ricardo
+
+Cuántos?: 2 P3
+
+        Liberos Sánchez Jośe Angel
+        Valverde Martínez Alberto
+
+Cuántos?: 2 P4
+
+        Barragán Ramírez Luis David
+        Novales Campos Fernando Itzama
+
+Cuántos?: 2 P5
+
+        Castillo Valles Arturo
+        Fernández Martínez Abisinia Ivey
